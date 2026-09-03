@@ -6,7 +6,7 @@ using UnityEngine.Serialization;
 namespace BlockBlast.Gameplay
 {
     /// <summary>
-    /// 게임의 전체 라이프사이클 및 핵심 하위 시스템(보드, 손패, 아이템, 점수, 타이머)을 조율하는 관리자 클래스입니다.
+    /// 게임의 전체 라이프사이클 및 화면 상태(MainMenu, Playing, Paused, GameOver)와 핵심 하위 시스템을 조율하는 관리자 클래스입니다.
     /// </summary>
     public sealed class GameManager : MonoBehaviour
     {
@@ -43,7 +43,7 @@ namespace BlockBlast.Gameplay
 
         #region Private Fields
 
-        private GameState _gameState = GameState.Ready;
+        private GameState _gameState = GameState.MainMenu;
 
         #endregion
 
@@ -79,6 +79,12 @@ namespace BlockBlast.Gameplay
             {
                 Destroy(gameObject);
                 return;
+            }
+
+            // SaveManager 자동 확인 및 부착
+            if (SaveManager.Instance == null && GetComponent<SaveManager>() == null)
+            {
+                gameObject.AddComponent<SaveManager>();
             }
 
             // 하위 컴포넌트 자동 탐색 (인스펙터 미할당 대비)
@@ -130,7 +136,8 @@ namespace BlockBlast.Gameplay
                 _handManager.OnHandRefilled += CheckForDeadlock;
             }
 
-            StartNewGame();
+            // 앱 실행 시 메인 메뉴 상태로 초기화
+            EnterMainMenu();
         }
 
         private void OnDestroy()
@@ -148,7 +155,30 @@ namespace BlockBlast.Gameplay
 
         #endregion
 
-        #region Public Methods
+        #region Public State Transition Methods
+
+        /// <summary>
+        /// 메인 메뉴 화면으로 진입합니다.
+        /// </summary>
+        public void EnterMainMenu()
+        {
+            _gameState = GameState.MainMenu;
+
+            if (_timeManager != null)
+            {
+                _timeManager.SetRunning(false);
+            }
+
+            OnGameStateChanged?.Invoke(_gameState);
+        }
+
+        /// <summary>
+        /// 메인 메뉴에서 [Play] 버튼을 눌러 새 게임을 시작합니다.
+        /// </summary>
+        public void StartGameFromMenu()
+        {
+            StartNewGame();
+        }
 
         /// <summary>
         /// 새로운 게임 세션을 시작하고 모든 하위 시스템을 초기화합니다.
@@ -183,6 +213,54 @@ namespace BlockBlast.Gameplay
                 _handManager.ReplenishHand();
             }
         }
+
+        /// <summary>
+        /// 인게임 플레이 중 일시정지 또는 재개를 전환합니다.
+        /// </summary>
+        /// <param name="isPaused">true일 경우 일시정지, false일 경우 재개합니다.</param>
+        public void PauseGame(bool isPaused)
+        {
+            if (_gameState != GameState.Playing && _gameState != GameState.Paused)
+            {
+                return;
+            }
+
+            if (isPaused)
+            {
+                _gameState = GameState.Paused;
+                if (_timeManager != null)
+                {
+                    _timeManager.SetRunning(false);
+                }
+            }
+            else
+            {
+                _gameState = GameState.Playing;
+                if (_timeManager != null)
+                {
+                    _timeManager.SetRunning(true);
+                }
+            }
+
+            OnGameStateChanged?.Invoke(_gameState);
+        }
+
+        /// <summary>
+        /// 인게임 플레이 또는 일시정지 상태에서 메인 메뉴로 복귀합니다.
+        /// </summary>
+        public void ReturnToMainMenu()
+        {
+            if (_timeManager != null)
+            {
+                _timeManager.SetRunning(false);
+            }
+
+            EnterMainMenu();
+        }
+
+        #endregion
+
+        #region Public Methods - Gameplay
 
         /// <summary>
         /// 손패의 블록을 보드 특정 좌표에 배치 시도합니다.

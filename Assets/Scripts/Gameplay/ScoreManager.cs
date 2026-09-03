@@ -6,12 +6,10 @@ using UnityEngine.Serialization;
 namespace BlockBlast.Gameplay
 {
     /// <summary>
-    /// 플레이어 점수 계산, 연속 클리어 스트릭(콤보), 2배 점수 버프 및 최고 점수 저장을 관리하는 클래스입니다.
+    /// 플레이어 점수 계산, 연속 클리어 스트릭(콤보), 2배 점수 버프 및 SaveManager 연동 최고 점수 저장을 관리하는 클래스입니다.
     /// </summary>
     public sealed class ScoreManager : MonoBehaviour
     {
-        private const string HighScoreKey = "BlockBlast_HighScore_Record";
-
         #region Serialized Fields
 
         [Header("Score Settings")]
@@ -55,7 +53,25 @@ namespace BlockBlast.Gameplay
 
         private void Awake()
         {
-            _highScore = PlayerPrefs.GetInt(HighScoreKey, 0);
+            RefreshHighScoreFromSaveManager();
+        }
+
+        private void Start()
+        {
+            RefreshHighScoreFromSaveManager();
+
+            if (SaveManager.Instance != null)
+            {
+                SaveManager.Instance.OnHighScoreUpdated += HandleHighScoreUpdatedFromSave;
+            }
+        }
+
+        private void OnDestroy()
+        {
+            if (SaveManager.Instance != null)
+            {
+                SaveManager.Instance.OnHighScoreUpdated -= HandleHighScoreUpdatedFromSave;
+            }
         }
 
         private void Update()
@@ -80,7 +96,22 @@ namespace BlockBlast.Gameplay
         #region Public Methods
 
         /// <summary>
-        /// 현재 점수, 스트릭 콤보 및 버프 상태를 초기화합니다.
+        /// SaveManager로부터 저장된 최고 점수를 읽어와 동기화합니다.
+        /// </summary>
+        public void RefreshHighScoreFromSaveManager()
+        {
+            if (SaveManager.Instance != null)
+            {
+                _highScore = SaveManager.Instance.HighScore;
+            }
+            else
+            {
+                _highScore = PlayerPrefs.GetInt("BlockBlast_HighScore_Record", 0);
+            }
+        }
+
+        /// <summary>
+        /// 현재 세션 점수, 스트릭 콤보 및 버프 상태를 초기화합니다.
         /// </summary>
         public void ResetScore()
         {
@@ -139,6 +170,12 @@ namespace BlockBlast.Gameplay
                 totalGain *= 2;
             }
 
+            // 모바일 햅틱 진동 피드백
+            if (SaveManager.Instance != null)
+            {
+                SaveManager.Instance.TriggerVibration();
+            }
+
             ApplyScore(totalGain);
         }
 
@@ -153,12 +190,27 @@ namespace BlockBlast.Gameplay
             if (_currentScore > _highScore)
             {
                 _highScore = _currentScore;
-                PlayerPrefs.SetInt(HighScoreKey, _highScore);
-                PlayerPrefs.Save();
+
+                if (SaveManager.Instance != null)
+                {
+                    SaveManager.Instance.UpdateHighScore(_highScore);
+                }
+                else
+                {
+                    PlayerPrefs.SetInt("BlockBlast_HighScore_Record", _highScore);
+                    PlayerPrefs.Save();
+                }
+
                 OnHighScoreChanged?.Invoke(_highScore);
             }
 
             OnScoreChanged?.Invoke(_currentScore, pointsToAdd, IsDoubleScoreActive);
+        }
+
+        private void HandleHighScoreUpdatedFromSave(int newHighScore)
+        {
+            _highScore = newHighScore;
+            OnHighScoreChanged?.Invoke(_highScore);
         }
 
         #endregion

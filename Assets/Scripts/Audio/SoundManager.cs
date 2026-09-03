@@ -8,6 +8,7 @@ namespace BlockBlast.Audio
 {
     /// <summary>
     /// 게임 내 효과음(블록 배치, 폭탄 폭발, 아이템 획득 및 일반 아이템별 개별 사용음, 게임오버)의 재생을 관리하는 오디오 매니저 클래스입니다.
+    /// SaveManager와 연동하여 음소거(Mute) 상태를 실시간으로 반영합니다.
     /// </summary>
     [RequireComponent(typeof(AudioSource))]
     public sealed class SoundManager : MonoBehaviour
@@ -26,6 +27,9 @@ namespace BlockBlast.Audio
         [FormerlySerializedAs("masterVolume")]
         [FormerlySerializedAs("_masterVolume")]
         [SerializeField] private float _masterVolume = 1.0f;
+
+        [Tooltip("오디오 음소거(Mute) 여부입니다.")]
+        [SerializeField] private bool _isMuted;
 
         [Header("Sound Manager")]
         [Tooltip("Block Place - 블록을 보드에 배치할 때 재생할 효과음입니다.")]
@@ -81,6 +85,19 @@ namespace BlockBlast.Audio
             set => _masterVolume = Mathf.Clamp01(value);
         }
 
+        public bool IsMuted
+        {
+            get => _isMuted;
+            set
+            {
+                _isMuted = value;
+                if (_audioSource != null)
+                {
+                    _audioSource.mute = _isMuted;
+                }
+            }
+        }
+
         public AudioClip BlockPlaceClip => _blockPlaceClip;
         public AudioClip BombClip => _bombClip;
         public AudioClip ItemGetClip => _itemGetClip;
@@ -112,10 +129,21 @@ namespace BlockBlast.Audio
             }
 
             _audioSource.playOnAwake = false;
+
+            if (SaveManager.Instance != null)
+            {
+                IsMuted = SaveManager.Instance.IsAudioMuted;
+            }
         }
 
         private void Start()
         {
+            if (SaveManager.Instance != null)
+            {
+                IsMuted = SaveManager.Instance.IsAudioMuted;
+                SaveManager.Instance.OnAudioMuteChanged += HandleMuteChangedFromSave;
+            }
+
             if (GameManager.Instance != null)
             {
                 var gm = GameManager.Instance;
@@ -146,6 +174,14 @@ namespace BlockBlast.Audio
                 }
 
                 gm.OnGameOver += (reason, score) => PlayGameOver();
+            }
+        }
+
+        private void OnDestroy()
+        {
+            if (SaveManager.Instance != null)
+            {
+                SaveManager.Instance.OnAudioMuteChanged -= HandleMuteChangedFromSave;
             }
         }
 
@@ -208,16 +244,27 @@ namespace BlockBlast.Audio
         }
 
         /// <summary>
-        /// 지정한 AudioClip을 마스터 볼륨을 적용하여 원샷 재생합니다. 미할당(null) 시 재생되지 않습니다.
+        /// 지정한 AudioClip을 마스터 볼륨을 적용하여 원샷 재생합니다. 음소거(Mute) 상태이거나 미할당 시 재생되지 않습니다.
         /// </summary>
         /// <param name="clip">재생할 AudioClip입니다.</param>
         /// <param name="volumeScale">개별 볼륨 스케일 (0.0 ~ 1.0)입니다.</param>
         public void PlaySound(AudioClip clip, float volumeScale = 1f)
         {
-            if (_audioSource != null && clip != null)
+            if (_isMuted || _audioSource == null || clip == null)
             {
-                _audioSource.PlayOneShot(clip, volumeScale * _masterVolume);
+                return;
             }
+
+            _audioSource.PlayOneShot(clip, volumeScale * _masterVolume);
+        }
+
+        #endregion
+
+        #region Private Handlers
+
+        private void HandleMuteChangedFromSave(bool isMuted)
+        {
+            IsMuted = isMuted;
         }
 
         #endregion

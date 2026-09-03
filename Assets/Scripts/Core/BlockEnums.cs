@@ -37,9 +37,10 @@ namespace BlockBlast.Core
     /// </summary>
     public enum GameState
     {
-        Ready,
-        Playing,
-        GameOver
+        MainMenu,   // 메인 타이틀 화면
+        Playing,    // 인게임 플레이 중
+        Paused,     // 인게임 일시정지 팝업
+        GameOver    // 게임 오버
     }
 
     /// <summary>
