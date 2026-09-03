@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05713af2abe05249a9e2f3b2c29a7d8, type: 3}
+  m_Name: BlockBlastTheme
+  m_EditorClassIdentifier: 
+  emptyCellSprite: {fileID: 21300000, guid: 08295a392b4101b44a86c1549ea56071, type: 3}
+  boardFrameSprite: {fileID: 21300000, guid: e20214d0d1c05fe4496cf2f805cec538, type: 3}
+  gameBackgroundSprite: {fileID: 21300000, guid: e20214d0d1c05fe4496cf2f805cec538, type: 3}
+  blockTileSprite: {fileID: 21300000, guid: feb37cb859a915140bb188e72d540a41, type: 3}
+  bomb3x3Icon: {fileID: 21300000, guid: 6186d148b87d57e4c91e795e4e50cafa, type: 3}
+  horizontalBlastIcon: {fileID: 21300000, guid: c8e48762cff55f541bc94c0002511bb3, type: 3}
+  verticalBlastIcon: {fileID: 21300000, guid: e297d202a05abc3458809f5b032544c0, type: 3}
+  timeBonus10sIcon: {fileID: 21300000, guid: a84fd4e690350fd479d54f6124b09135, type: 3}
+  boardCleanIcon: {fileID: 21300000, guid: 97071da0dff227c41829e9af5f3afbc9, type: 3}
+  handResetIcon: {fileID: 21300000, guid: 01cb14ea8da095c4d802f029ec1dc3e8, type: 3}
+  scoreDouble10sIcon: {fileID: 21300000, guid: 75a9ae907cbe05e4fab0c0765d2d6d0c, type: 3}
+  starIcon: {fileID: 21300000, guid: 2c485c9a0baf92c4fb8592a13b9cbd88, type: 3}
+  settingsIcon: {fileID: 21300000, guid: c3d496af372765348b4a0a000bd29846, type: 3}
+  itemSlotBgSprite: {fileID: 21300000, guid: d7e30522d93c93842af2fdb1a63677ee, type: 3}

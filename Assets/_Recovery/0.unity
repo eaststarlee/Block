@@ -251,12 +251,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 15161490}
-  _fillImage: {fileID: 1145116016}
-  _highlightImage: {fileID: 696777974}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 92422518}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 15161490}
+  fillImage: {fileID: 1145116016}
+  highlightImage: {fileID: 696777974}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 92422518}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &15161490
@@ -994,12 +994,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 70167583}
-  _fillImage: {fileID: 198482005}
-  _highlightImage: {fileID: 213419658}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1582261250}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 70167583}
+  fillImage: {fileID: 198482005}
+  highlightImage: {fileID: 213419658}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1582261250}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &70167583
@@ -1093,12 +1093,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 72957487}
-  _fillImage: {fileID: 1299402689}
-  _highlightImage: {fileID: 604788544}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1165475831}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 72957487}
+  fillImage: {fileID: 1299402689}
+  highlightImage: {fileID: 604788544}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1165475831}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &72957487
@@ -1192,12 +1192,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 84473500}
-  _fillImage: {fileID: 879362771}
-  _highlightImage: {fileID: 680341589}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1855940577}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 84473500}
+  fillImage: {fileID: 879362771}
+  highlightImage: {fileID: 680341589}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1855940577}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &84473500
@@ -1445,12 +1445,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 96907734}
-  _fillImage: {fileID: 2072193890}
-  _highlightImage: {fileID: 34606667}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1167537133}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 96907734}
+  fillImage: {fileID: 2072193890}
+  highlightImage: {fileID: 34606667}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1167537133}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &96907734
@@ -1623,12 +1623,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 103195872}
-  _fillImage: {fileID: 942717462}
-  _highlightImage: {fileID: 790362013}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 925261178}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 103195872}
+  fillImage: {fileID: 942717462}
+  highlightImage: {fileID: 790362013}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 925261178}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &103195872
@@ -1722,12 +1722,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 108060353}
-  _fillImage: {fileID: 1606390904}
-  _highlightImage: {fileID: 466086811}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1158064997}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 108060353}
+  fillImage: {fileID: 1606390904}
+  highlightImage: {fileID: 466086811}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1158064997}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &108060353
@@ -1900,12 +1900,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 125157121}
-  _fillImage: {fileID: 1650342877}
-  _highlightImage: {fileID: 910420786}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1293074575}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 125157121}
+  fillImage: {fileID: 1650342877}
+  highlightImage: {fileID: 910420786}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1293074575}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &125157121
@@ -2386,12 +2386,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 176859885}
-  _fillImage: {fileID: 220242371}
-  _highlightImage: {fileID: 1038317652}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1362800630}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 176859885}
+  fillImage: {fileID: 220242371}
+  highlightImage: {fileID: 1038317652}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1362800630}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &176859885
@@ -2635,12 +2635,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 190365553}
-  _fillImage: {fileID: 266248320}
-  _highlightImage: {fileID: 183329239}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 835368588}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 190365553}
+  fillImage: {fileID: 266248320}
+  highlightImage: {fileID: 183329239}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 835368588}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &190365553
@@ -2809,12 +2809,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 205368792}
-  _fillImage: {fileID: 678110674}
-  _highlightImage: {fileID: 994949292}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1473165092}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 205368792}
+  fillImage: {fileID: 678110674}
+  highlightImage: {fileID: 994949292}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1473165092}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &205368792
@@ -3441,12 +3441,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 260751440}
-  _fillImage: {fileID: 423486075}
-  _highlightImage: {fileID: 770949038}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1200580737}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 260751440}
+  fillImage: {fileID: 423486075}
+  highlightImage: {fileID: 770949038}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1200580737}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &260751440
@@ -3916,7 +3916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56df957290340c644a4f9d3c925ca283, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Gameplay.BlockBlastDebugger
-  _enableKeyShortcuts: 1
+  enableKeyShortcuts: 1
 --- !u!114 &299886970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3929,14 +3929,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e78dd5660e1f7924bbb38b964580e528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Audio.SoundManager
-  _masterVolume: 1
-  _blockPlaceClip: {fileID: 8300000, guid: 7832011c2240d584286eb68d60cd4ae2, type: 3}
-  _bombClip: {fileID: 8300000, guid: c6b21f384faa0f94e9007e00e6f8f7be, type: 3}
-  _itemGetClip: {fileID: 8300000, guid: aaf5bf9dc3ee48b4e99f46460c3ed540, type: 3}
-  _itemBoardCleanClip: {fileID: 8300000, guid: a8a5018613f355c448650ea1fba8efa0, type: 3}
-  _itemHandResetClip: {fileID: 8300000, guid: bb23e0fdfaffb02459f45fc04a3829ba, type: 3}
-  _itemScoreDoubleClip: {fileID: 8300000, guid: 32b76b74d5b49d04da473d479e011773, type: 3}
-  _gameOverClip: {fileID: 8300000, guid: 3aed929f492cb13468b05e91f21438ba, type: 3}
 --- !u!82 &299886971
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4046,7 +4038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 445b46fcaa4cb9248bc3a89470de039c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Gameplay.TimeManager
-  _initialDuration: 60
+  initialDuration: 60
 --- !u!114 &299886973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4059,8 +4051,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdf9e6d8952016c498f89465bf0f5406, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Gameplay.ScoreManager
-  _pointsPerCell: 10
-  _baseLinePoints: 100
+  pointsPerCell: 10
+  baseLinePoints: 100
 --- !u!114 &299886974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4073,10 +4065,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cedb2d9ecabb4c4e9b14d84dffddcb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Gameplay.ItemManager
-  _gridManager: {fileID: 0}
-  _handManager: {fileID: 0}
-  _scoreManager: {fileID: 0}
-  _timeManager: {fileID: 0}
+  gridManager: {fileID: 0}
+  handManager: {fileID: 0}
+  scoreManager: {fileID: 0}
+  timeManager: {fileID: 0}
 --- !u!114 &299886975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4089,13 +4081,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faaffe21127464c4abe1aee0d18a0054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Gameplay.HandManager
-  _chanceBomb3x3: 15
-  _chanceHorizontalBlast: 15
-  _chanceVerticalBlast: 15
-  _chanceTimeBonus10s: 35
-  _chanceBoardClean: 5
-  _chanceHandReset: 10
-  _chanceScoreDouble10s: 10
+  chanceBomb3x3: 15
+  chanceHorizontalBlast: 15
+  chanceVerticalBlast: 15
+  chanceTimeBonus10s: 35
+  chanceBoardClean: 5
+  chanceHandReset: 10
+  chanceScoreDouble10s: 10
 --- !u!114 &299886976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4120,11 +4112,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d608ae7de85bdc4a86d0be83f207649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Gameplay.GameManager
-  _gridManager: {fileID: 299886976}
-  _handManager: {fileID: 299886975}
-  _itemManager: {fileID: 299886974}
-  _scoreManager: {fileID: 299886973}
-  _timeManager: {fileID: 299886972}
+  gridManager: {fileID: 299886976}
+  handManager: {fileID: 299886975}
+  itemManager: {fileID: 299886974}
+  scoreManager: {fileID: 299886973}
+  timeManager: {fileID: 299886972}
 --- !u!4 &299886978
 Transform:
   m_ObjectHideFlags: 0
@@ -4153,7 +4145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18a8f5c8ac482aa40b8a6f3c24fceb47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.ThemeManager
-  _themeConfig: {fileID: 11400000, guid: b03285bf7135e6040b8f98319a4f3fe2, type: 2}
+  themeConfig: {fileID: 11400000, guid: b03285bf7135e6040b8f98319a4f3fe2, type: 2}
 --- !u!1 &304143418
 GameObject:
   m_ObjectHideFlags: 0
@@ -4207,12 +4199,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 304143421}
-  _fillImage: {fileID: 1482821740}
-  _highlightImage: {fileID: 2120694723}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1351962378}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 304143421}
+  fillImage: {fileID: 1482821740}
+  highlightImage: {fileID: 2120694723}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1351962378}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &304143421
@@ -4378,14 +4370,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a8ab4d3408ed64aa36331710a0d16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.HandBlockView
-  _slotIndex: 2
-  _dragOffsetY: 90
-  _slotCellSize: 48
-  _boardCellSize: 102
-  _rootCanvas: {fileID: 1408671218}
-  _boardView: {fileID: 568633342}
-  _slotAnchor: {fileID: 0}
-  _blockVisualRoot: {fileID: 0}
+  slotIndex: 2
+  dragOffsetY: 90
+  slotCellSize: 48
+  boardCellSize: 102
+  rootCanvas: {fileID: 1408671218}
+  boardView: {fileID: 568633342}
+  slotAnchor: {fileID: 0}
+  blockVisualRoot: {fileID: 0}
 --- !u!114 &310568595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4570,7 +4562,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "UI \uBA58\uD2B8\uAC00 \uC791\uC131\uB429\uB2C8\uB2E4."
+  m_Text: "\uC2DC\uAC04\uC815\uC9C0 !!!!!\n\uC9C0\uAE08\uC774\uC58F~~~"
 --- !u!222 &322245934
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4798,12 +4790,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 355047403}
-  _fillImage: {fileID: 335214809}
-  _highlightImage: {fileID: 1667739423}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1429256689}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 355047403}
+  fillImage: {fileID: 335214809}
+  highlightImage: {fileID: 1667739423}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1429256689}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &355047403
@@ -4976,12 +4968,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 376431019}
-  _fillImage: {fileID: 558247924}
-  _highlightImage: {fileID: 1106804003}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 280704789}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 376431019}
+  fillImage: {fileID: 558247924}
+  highlightImage: {fileID: 1106804003}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 280704789}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &376431019
@@ -5255,81 +5247,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393814022}
   m_CullTransparentMesh: 1
---- !u!1 &402690587
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 402690588}
-  - component: {fileID: 402690590}
-  - component: {fileID: 402690589}
-  m_Layer: 0
-  m_Name: Star
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &402690588
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402690587}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1479189360}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 40, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &402690589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402690587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2c485c9a0baf92c4fb8592a13b9cbd88, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &402690590
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402690587}
-  m_CullTransparentMesh: 1
 --- !u!1 &406465318
 GameObject:
   m_ObjectHideFlags: 0
@@ -5383,12 +5300,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 406465321}
-  _fillImage: {fileID: 1539725836}
-  _highlightImage: {fileID: 822743569}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 157978437}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 406465321}
+  fillImage: {fileID: 1539725836}
+  highlightImage: {fileID: 822743569}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 157978437}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &406465321
@@ -5786,12 +5703,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 450992150}
-  _fillImage: {fileID: 1403841227}
-  _highlightImage: {fileID: 647598573}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1597001826}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 450992150}
+  fillImage: {fileID: 1403841227}
+  highlightImage: {fileID: 647598573}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1597001826}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &450992150
@@ -6039,12 +5956,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 478955248}
-  _fillImage: {fileID: 1720975158}
-  _highlightImage: {fileID: 1034898935}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1688714421}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 478955248}
+  fillImage: {fileID: 1720975158}
+  highlightImage: {fileID: 1034898935}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1688714421}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &478955248
@@ -6138,12 +6055,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 486168353}
-  _fillImage: {fileID: 189093657}
-  _highlightImage: {fileID: 2116258189}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 292865818}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 486168353}
+  fillImage: {fileID: 189093657}
+  highlightImage: {fileID: 2116258189}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 292865818}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &486168353
@@ -6832,12 +6749,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 552004043}
-  _fillImage: {fileID: 1837302284}
-  _highlightImage: {fileID: 979024971}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 2091491655}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 552004043}
+  fillImage: {fileID: 1837302284}
+  highlightImage: {fileID: 979024971}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 2091491655}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &552004043
@@ -6984,11 +6901,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef72901fc3a72f4d970c92e8c79bf4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridBoardView
-  _gridManager: {fileID: 299886976}
-  _boardContainer: {fileID: 568633345}
-  _gridLayout: {fileID: 690332920}
-  _validPreviewColor: {r: 0.2, g: 0.9, b: 0.3, a: 0.5}
-  _invalidPreviewColor: {r: 0.9, g: 0.2, b: 0.2, a: 0.4}
+  gridManager: {fileID: 299886976}
+  boardContainer: {fileID: 568633345}
+  gridLayout: {fileID: 690332920}
+  validPreviewColor: {r: 0.2, g: 0.9, b: 0.3, a: 0.5}
+  invalidPreviewColor: {r: 0.9, g: 0.2, b: 0.2, a: 0.4}
 --- !u!114 &568633343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7333,12 +7250,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 581439891}
-  _fillImage: {fileID: 1370547030}
-  _highlightImage: {fileID: 1343455990}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 697822339}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 581439891}
+  fillImage: {fileID: 1370547030}
+  highlightImage: {fileID: 1343455990}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 697822339}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &581439891
@@ -7657,12 +7574,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 605321019}
-  _fillImage: {fileID: 1302314372}
-  _highlightImage: {fileID: 1572221051}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1604673499}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 605321019}
+  fillImage: {fileID: 1302314372}
+  highlightImage: {fileID: 1572221051}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1604673499}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &605321019
@@ -7835,12 +7752,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 614678913}
-  _fillImage: {fileID: 1385735306}
-  _highlightImage: {fileID: 1399417248}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 610729486}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 614678913}
+  fillImage: {fileID: 1385735306}
+  highlightImage: {fileID: 1399417248}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 610729486}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &614678913
@@ -8189,12 +8106,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 651970529}
-  _fillImage: {fileID: 1750118255}
-  _highlightImage: {fileID: 1233958054}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 721493920}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 651970529}
+  fillImage: {fileID: 1750118255}
+  highlightImage: {fileID: 1233958054}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 721493920}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &651970529
@@ -8712,12 +8629,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 694180275}
-  _fillImage: {fileID: 309395795}
-  _highlightImage: {fileID: 1739884256}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 788018965}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 694180275}
+  fillImage: {fileID: 309395795}
+  highlightImage: {fileID: 1739884256}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 788018965}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &694180275
@@ -8886,12 +8803,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 697329463}
-  _fillImage: {fileID: 426251749}
-  _highlightImage: {fileID: 2077424084}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 2041758445}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 697329463}
+  fillImage: {fileID: 426251749}
+  highlightImage: {fileID: 2077424084}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 2041758445}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &697329463
@@ -9218,12 +9135,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 716583511}
-  _fillImage: {fileID: 384995465}
-  _highlightImage: {fileID: 1358271807}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1795251620}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 716583511}
+  fillImage: {fileID: 384995465}
+  highlightImage: {fileID: 1358271807}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1795251620}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &716583511
@@ -9396,12 +9313,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 739075761}
-  _fillImage: {fileID: 530612154}
-  _highlightImage: {fileID: 745813882}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1873705407}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 739075761}
+  fillImage: {fileID: 530612154}
+  highlightImage: {fileID: 745813882}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1873705407}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &739075761
@@ -9574,12 +9491,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 743272485}
-  _fillImage: {fileID: 1964789350}
-  _highlightImage: {fileID: 63195729}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 863669589}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 743272485}
+  fillImage: {fileID: 1964789350}
+  highlightImage: {fileID: 63195729}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 863669589}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &743272485
@@ -9748,12 +9665,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b34c9313a26abb47888a1e69484bd02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.ItemSlotView
-  _slotIndex: 1
-  _slotButton: {fileID: 767118568}
-  _bgImage: {fileID: 767118569}
-  _iconImage: {fileID: 0}
-  _emptyBgColor: {r: 0.2, g: 0.25, b: 0.2, a: 0.8}
-  _filledBgColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+  slotIndex: 1
+  slotButton: {fileID: 767118568}
+  bgImage: {fileID: 767118569}
+  iconImage: {fileID: 0}
+  emojiText: {fileID: 743037267}
+  labelText: {fileID: 1410984431}
+  emptyBgColor: {r: 0.2, g: 0.25, b: 0.2, a: 0.8}
+  filledBgColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
 --- !u!114 &767118568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10118,12 +10037,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 785438320}
-  _fillImage: {fileID: 904881688}
-  _highlightImage: {fileID: 932953804}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1262192367}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 785438320}
+  fillImage: {fileID: 904881688}
+  highlightImage: {fileID: 932953804}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1262192367}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &785438320
@@ -11220,12 +11139,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 887741103}
-  _fillImage: {fileID: 527416618}
-  _highlightImage: {fileID: 84827987}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1188016930}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 887741103}
+  fillImage: {fileID: 527416618}
+  highlightImage: {fileID: 84827987}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1188016930}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &887741103
@@ -11319,12 +11238,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 890660971}
-  _fillImage: {fileID: 501065218}
-  _highlightImage: {fileID: 1397536171}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 969617846}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 890660971}
+  fillImage: {fileID: 501065218}
+  highlightImage: {fileID: 1397536171}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 969617846}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &890660971
@@ -12320,12 +12239,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 981365331}
-  _fillImage: {fileID: 2113261998}
-  _highlightImage: {fileID: 1787682297}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1262121199}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 981365331}
+  fillImage: {fileID: 2113261998}
+  highlightImage: {fileID: 1787682297}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1262121199}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &981365331
@@ -12419,12 +12338,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 982187865}
-  _fillImage: {fileID: 1952943485}
-  _highlightImage: {fileID: 239075743}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1866610283}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 982187865}
+  fillImage: {fileID: 1952943485}
+  highlightImage: {fileID: 239075743}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1866610283}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &982187865
@@ -12593,12 +12512,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1018367740}
-  _fillImage: {fileID: 1972772587}
-  _highlightImage: {fileID: 641581877}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 576442604}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1018367740}
+  fillImage: {fileID: 1972772587}
+  highlightImage: {fileID: 641581877}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 576442604}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1018367740
@@ -12692,12 +12611,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1018591336}
-  _fillImage: {fileID: 1984836794}
-  _highlightImage: {fileID: 1535194271}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 115120373}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1018591336}
+  fillImage: {fileID: 1984836794}
+  highlightImage: {fileID: 1535194271}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 115120373}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1018591336
@@ -13016,12 +12935,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1041832586}
-  _fillImage: {fileID: 1397380942}
-  _highlightImage: {fileID: 1298613239}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 97777360}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1041832586}
+  fillImage: {fileID: 1397380942}
+  highlightImage: {fileID: 1298613239}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 97777360}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1041832586
@@ -13269,12 +13188,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1081693410}
-  _fillImage: {fileID: 255922384}
-  _highlightImage: {fileID: 240905717}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1321371334}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1081693410}
+  fillImage: {fileID: 255922384}
+  highlightImage: {fileID: 240905717}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1321371334}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1081693410
@@ -13747,12 +13666,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1144111223}
-  _fillImage: {fileID: 1362074030}
-  _highlightImage: {fileID: 2057626779}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1120931840}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1144111223}
+  fillImage: {fileID: 1362074030}
+  highlightImage: {fileID: 2057626779}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1120931840}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1144111223
@@ -14313,14 +14232,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a8ab4d3408ed64aa36331710a0d16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.HandBlockView
-  _slotIndex: 0
-  _dragOffsetY: 90
-  _slotCellSize: 48
-  _boardCellSize: 102
-  _rootCanvas: {fileID: 1408671218}
-  _boardView: {fileID: 568633342}
-  _slotAnchor: {fileID: 0}
-  _blockVisualRoot: {fileID: 0}
+  slotIndex: 0
+  dragOffsetY: 90
+  slotCellSize: 48
+  boardCellSize: 102
+  rootCanvas: {fileID: 1408671218}
+  boardView: {fileID: 568633342}
+  slotAnchor: {fileID: 0}
+  blockVisualRoot: {fileID: 0}
 --- !u!114 &1184490219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14412,12 +14331,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1185384542}
-  _fillImage: {fileID: 1282597544}
-  _highlightImage: {fileID: 1269980288}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 441917108}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1185384542}
+  fillImage: {fileID: 1282597544}
+  highlightImage: {fileID: 1269980288}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 441917108}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1185384542
@@ -14977,12 +14896,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1266606280}
-  _fillImage: {fileID: 1379049068}
-  _highlightImage: {fileID: 2128126711}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 130343797}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1266606280}
+  fillImage: {fileID: 1379049068}
+  highlightImage: {fileID: 2128126711}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 130343797}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1266606280
@@ -15151,12 +15070,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1278269206}
-  _fillImage: {fileID: 1712850786}
-  _highlightImage: {fileID: 1972075243}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1547173943}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1278269206}
+  fillImage: {fileID: 1712850786}
+  highlightImage: {fileID: 1972075243}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1547173943}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1278269206
@@ -15325,12 +15244,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1287611433}
-  _fillImage: {fileID: 788124922}
-  _highlightImage: {fileID: 2021991169}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 877462178}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1287611433}
+  fillImage: {fileID: 788124922}
+  highlightImage: {fileID: 2021991169}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 877462178}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1287611433
@@ -15559,7 +15478,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 325, y: 0}
+  m_AnchoredPosition: {x: 250, y: 0}
   m_SizeDelta: {x: 500, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1295618309
@@ -15595,7 +15514,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uCD5C\uACE0\uC810\uC218"
+  m_Text: "\u2605 1,235,152"
 --- !u!222 &1295618310
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15957,12 +15876,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1313687546}
-  _fillImage: {fileID: 1363693502}
-  _highlightImage: {fileID: 897266333}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 356621185}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1313687546}
+  fillImage: {fileID: 1363693502}
+  highlightImage: {fileID: 897266333}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 356621185}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1313687546
@@ -16235,6 +16154,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323604060}
+  m_CullTransparentMesh: 1
+--- !u!1 &1342630027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1342630028}
+  - component: {fileID: 1342630030}
+  - component: {fileID: 1342630029}
+  m_Layer: 0
+  m_Name: SettingsIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1342630028
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342630027}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1479189360}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -50, y: 0}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1342630029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342630027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 60
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 60
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u2699\uFE0F"
+--- !u!222 &1342630030
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342630027}
   m_CullTransparentMesh: 1
 --- !u!1 &1343455988
 GameObject:
@@ -16747,12 +16745,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1364838525}
-  _fillImage: {fileID: 1412832310}
-  _highlightImage: {fileID: 777116031}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1320242621}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1364838525}
+  fillImage: {fileID: 1412832310}
+  highlightImage: {fileID: 777116031}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1320242621}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1364838525
@@ -17630,35 +17628,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea78d235c7e00b14883e8cf42141d398, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.SimpleGameView
-  _backgroundImage: {fileID: 0}
-  _mainCamera: {fileID: 0}
-  _backgroundPalette:
-  - {r: 0.18, g: 0.22, b: 0.28, a: 1}
-  - {r: 0.24, g: 0.18, b: 0.28, a: 1}
-  - {r: 0.16, g: 0.26, b: 0.24, a: 1}
-  - {r: 0.28, g: 0.2, b: 0.18, a: 1}
-  - {r: 0.2, g: 0.2, b: 0.24, a: 1}
-  - {r: 0.28, g: 0.16, b: 0.22, a: 1}
-  - {r: 0.29, g: 0.35, b: 0.22, a: 1}
-  _highScoreText: {fileID: 1295618309}
-  _currentScoreText: {fileID: 1575558632}
-  _timerText: {fileID: 2104232395}
-  _doubleScoreBadge: {fileID: 2001420888}
-  _itemSlots:
+  highScoreText: {fileID: 1295618309}
+  currentScoreText: {fileID: 1575558632}
+  timerText: {fileID: 2104232395}
+  doubleScoreBadge: {fileID: 2001420888}
+  itemSlots:
   - {fileID: 1701701650}
   - {fileID: 767118567}
   - {fileID: 1425847979}
-  _boardView: {fileID: 568633342}
-  _handSlots:
+  boardView: {fileID: 568633342}
+  handSlots:
   - {fileID: 1184490218}
   - {fileID: 1772157329}
   - {fileID: 310568594}
-  _noticeBannerText: {fileID: 322245933}
-  _noticeCanvasGroup: {fileID: 322245935}
-  _gameOverPanel: {fileID: 699807785}
-  _gameOverReasonText: {fileID: 1905137436}
-  _gameOverFinalScoreText: {fileID: 527743399}
-  _restartButton: {fileID: 24733636}
+  noticeBannerText: {fileID: 322245933}
+  noticeCanvasGroup: {fileID: 322245935}
+  gameOverPanel: {fileID: 699807785}
+  gameOverReasonText: {fileID: 1905137436}
+  gameOverFinalScoreText: {fileID: 527743399}
+  restartButton: {fileID: 24733636}
 --- !u!114 &1408671220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17906,12 +17894,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b34c9313a26abb47888a1e69484bd02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.ItemSlotView
-  _slotIndex: 2
-  _slotButton: {fileID: 1425847980}
-  _bgImage: {fileID: 1425847981}
-  _iconImage: {fileID: 0}
-  _emptyBgColor: {r: 0.2, g: 0.25, b: 0.2, a: 0.8}
-  _filledBgColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+  slotIndex: 2
+  slotButton: {fileID: 1425847980}
+  bgImage: {fileID: 1425847981}
+  iconImage: {fileID: 0}
+  emojiText: {fileID: 1576763742}
+  labelText: {fileID: 871987759}
+  emptyBgColor: {r: 0.2, g: 0.25, b: 0.2, a: 0.8}
+  filledBgColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
 --- !u!114 &1425847980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18330,9 +18320,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 402690588}
   - {fileID: 1295618308}
-  - {fileID: 2134857533}
+  - {fileID: 1342630028}
   m_Father: {fileID: 1408671217}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
@@ -18468,12 +18457,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1496817468}
-  _fillImage: {fileID: 1932849070}
-  _highlightImage: {fileID: 707403785}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1180327289}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1496817468}
+  fillImage: {fileID: 1932849070}
+  highlightImage: {fileID: 707403785}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1180327289}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1496817468
@@ -19416,12 +19405,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1621486158}
-  _fillImage: {fileID: 442724115}
-  _highlightImage: {fileID: 2013727686}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 251931044}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1621486158}
+  fillImage: {fileID: 442724115}
+  highlightImage: {fileID: 2013727686}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 251931044}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1621486158
@@ -19823,12 +19812,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1694567483}
-  _fillImage: {fileID: 1574903857}
-  _highlightImage: {fileID: 1439621192}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 524152199}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1694567483}
+  fillImage: {fileID: 1574903857}
+  highlightImage: {fileID: 1439621192}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 524152199}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1694567483
@@ -19922,12 +19911,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b34c9313a26abb47888a1e69484bd02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.ItemSlotView
-  _slotIndex: 0
-  _slotButton: {fileID: 1701701651}
-  _bgImage: {fileID: 1701701652}
-  _iconImage: {fileID: 0}
-  _emptyBgColor: {r: 0.2, g: 0.25, b: 0.2, a: 0.8}
-  _filledBgColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+  slotIndex: 0
+  slotButton: {fileID: 1701701651}
+  bgImage: {fileID: 1701701652}
+  iconImage: {fileID: 0}
+  emojiText: {fileID: 126630627}
+  labelText: {fileID: 474086919}
+  emptyBgColor: {r: 0.2, g: 0.25, b: 0.2, a: 0.8}
+  filledBgColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
 --- !u!114 &1701701651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20138,12 +20129,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1720610984}
-  _fillImage: {fileID: 569465381}
-  _highlightImage: {fileID: 1026600836}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 812814597}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1720610984}
+  fillImage: {fileID: 569465381}
+  highlightImage: {fileID: 1026600836}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 812814597}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1720610984
@@ -20312,12 +20303,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1725948235}
-  _fillImage: {fileID: 1462725923}
-  _highlightImage: {fileID: 1111974988}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 861557782}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1725948235}
+  fillImage: {fileID: 1462725923}
+  highlightImage: {fileID: 1111974988}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 861557782}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1725948235
@@ -20561,12 +20552,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1748017630}
-  _fillImage: {fileID: 159577661}
-  _highlightImage: {fileID: 2025199962}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 778599641}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1748017630}
+  fillImage: {fileID: 159577661}
+  highlightImage: {fileID: 2025199962}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 778599641}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1748017630
@@ -20814,12 +20805,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1765478238}
-  _fillImage: {fileID: 1306199265}
-  _highlightImage: {fileID: 142549617}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1075004679}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1765478238}
+  fillImage: {fileID: 1306199265}
+  highlightImage: {fileID: 142549617}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1075004679}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1765478238
@@ -20910,14 +20901,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a8ab4d3408ed64aa36331710a0d16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.HandBlockView
-  _slotIndex: 1
-  _dragOffsetY: 90
-  _slotCellSize: 48
-  _boardCellSize: 102
-  _rootCanvas: {fileID: 1408671218}
-  _boardView: {fileID: 568633342}
-  _slotAnchor: {fileID: 0}
-  _blockVisualRoot: {fileID: 0}
+  slotIndex: 1
+  dragOffsetY: 90
+  slotCellSize: 48
+  boardCellSize: 102
+  rootCanvas: {fileID: 1408671218}
+  boardView: {fileID: 568633342}
+  slotAnchor: {fileID: 0}
+  blockVisualRoot: {fileID: 0}
 --- !u!114 &1772157330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21238,12 +21229,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1800262911}
-  _fillImage: {fileID: 1131883872}
-  _highlightImage: {fileID: 589853967}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 393627125}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1800262911}
+  fillImage: {fileID: 1131883872}
+  highlightImage: {fileID: 589853967}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 393627125}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1800262911
@@ -21570,12 +21561,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1872672222}
-  _fillImage: {fileID: 33790596}
-  _highlightImage: {fileID: 1254607606}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1149593362}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1872672222}
+  fillImage: {fileID: 33790596}
+  highlightImage: {fileID: 1254607606}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1149593362}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1872672222
@@ -21748,12 +21739,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1883966274}
-  _fillImage: {fileID: 1793149911}
-  _highlightImage: {fileID: 1957173322}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 5038817}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1883966274}
+  fillImage: {fileID: 1793149911}
+  highlightImage: {fileID: 1957173322}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 5038817}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1883966274
@@ -21926,12 +21917,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1909985655}
-  _fillImage: {fileID: 1910355169}
-  _highlightImage: {fileID: 1382192835}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1994207394}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1909985655}
+  fillImage: {fileID: 1910355169}
+  highlightImage: {fileID: 1382192835}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1994207394}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1909985655
@@ -22175,12 +22166,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1941298839}
-  _fillImage: {fileID: 1742737248}
-  _highlightImage: {fileID: 793361311}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 1756834939}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1941298839}
+  fillImage: {fileID: 1742737248}
+  highlightImage: {fileID: 793361311}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 1756834939}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1941298839
@@ -22724,12 +22715,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1974057472}
-  _fillImage: {fileID: 583355269}
-  _highlightImage: {fileID: 1136738053}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 18709627}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1974057472}
+  fillImage: {fileID: 583355269}
+  highlightImage: {fileID: 1136738053}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 18709627}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1974057472
@@ -22977,12 +22968,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 1997800958}
-  _fillImage: {fileID: 896172531}
-  _highlightImage: {fileID: 1374842262}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 280811642}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 1997800958}
+  fillImage: {fileID: 896172531}
+  highlightImage: {fileID: 1374842262}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 280811642}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &1997800958
@@ -23152,12 +23143,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 2008062820}
-  _fillImage: {fileID: 1294569837}
-  _highlightImage: {fileID: 17763907}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 393814024}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 2008062820}
+  fillImage: {fileID: 1294569837}
+  highlightImage: {fileID: 17763907}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 393814024}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &2008062820
@@ -23630,12 +23621,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 2057725014}
-  _fillImage: {fileID: 658136928}
-  _highlightImage: {fileID: 1078403833}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 573628545}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 2057725014}
+  fillImage: {fileID: 658136928}
+  highlightImage: {fileID: 1078403833}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 573628545}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &2057725014
@@ -23958,12 +23949,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 2102906132}
-  _fillImage: {fileID: 1323604062}
-  _highlightImage: {fileID: 1941531687}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 57599230}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 2102906132}
+  fillImage: {fileID: 1323604062}
+  highlightImage: {fileID: 1941531687}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 57599230}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &2102906132
@@ -24324,12 +24315,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 2117707001}
-  _fillImage: {fileID: 322177638}
-  _highlightImage: {fileID: 936282860}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 354456794}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 2117707001}
+  fillImage: {fileID: 322177638}
+  highlightImage: {fileID: 936282860}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 354456794}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &2117707001
@@ -24520,81 +24511,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2128126709}
   m_CullTransparentMesh: 1
---- !u!1 &2134857532
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2134857533}
-  - component: {fileID: 2134857535}
-  - component: {fileID: 2134857534}
-  m_Layer: 0
-  m_Name: SettingsIcon
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2134857533
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134857532}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1479189360}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2134857534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134857532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c3d496af372765348b4a0a000bd29846, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2134857535
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134857532}
-  m_CullTransparentMesh: 1
 --- !u!1 &2137561167
 GameObject:
   m_ObjectHideFlags: 0
@@ -24648,12 +24564,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6bae9e3633904498c9dd67546a36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Presentation.GridCellView
-  _bgImage: {fileID: 2137561170}
-  _fillImage: {fileID: 543865684}
-  _highlightImage: {fileID: 684468517}
-  _itemIconImage: {fileID: 0}
-  _itemEmojiText: {fileID: 248246594}
-  _emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
+  bgImage: {fileID: 2137561170}
+  fillImage: {fileID: 543865684}
+  highlightImage: {fileID: 684468517}
+  itemIconImage: {fileID: 0}
+  itemEmojiText: {fileID: 248246594}
+  emptyCellColor: {r: 0.82, g: 0.82, b: 0.84, a: 1}
   _gridX: 0
   _gridY: 0
 --- !u!114 &2137561170
