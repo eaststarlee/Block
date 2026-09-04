@@ -1,0 +1,139 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498 (void);
+extern void InternalRenderGraphValidation_SetAdditionalValidationLayer_m7E17169717A597EC93778D76E4B3603326CE557F (void);
+extern void InternalRenderGraphValidation__ctor_mD73A84ABA9010ADDC8939286A5405D7B167069DF (void);
+extern void OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81 (void);
+extern void OnTileValidationLayer_set_renderGraph_m8DCA2A883D5EB8FA39830B7E94D80CB97E59423E (void);
+extern void OnTileValidationLayer__ctor_m3576107877B64ADE640D5E79A70F4ED89AA3E17B (void);
+extern void OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703 (void);
+extern void OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1 (void);
+extern void OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5 (void);
+extern void OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3 (void);
+extern void OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D (void);
+extern void OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33 (void);
+extern void OnTileValidationLayer_UseTexture_mDAA9B7BF3CCFC7CF6025E0A36F0C23970C8AEC99 (void);
+extern void OnTileValidationLayer_SetGlobalTextureAfterPass_mC46991FF1200D4D11777B4ED7EC30421A7DE8E16 (void);
+extern void OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7 (void);
+extern void OnTileValidationLayer_SetRenderAttachment_mA13E12DE1C3F4777FE2BC9D9AF2E9B7FC632DAD9 (void);
+extern void OnTileValidationLayer_SetRenderAttachmentDepth_m8A0176DD00B25F1AF1EEB61A954DE7E29A86FBF1 (void);
+extern void OnTileValidationLayer_SetInputAttachment_m83B484B3E8755611327DF614DF2F30A31E74EB5E (void);
+extern void OnTileValidationLayer_OnPassAddedBegin_mCA43370D61BF89ACE568EBD45EFB60031B26EC74 (void);
+extern void OnTileValidationLayer_OnPassAddedDispose_mEC5C677267EEFD5ECF27A4E316ABE4B54BE2CADC (void);
+extern void OnTileValidationLayer_Add_m806B75033A01469DF7F696BD596CB1FC1523B448 (void);
+extern void OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7 (void);
+extern void OnTileValidationLayer_Remove_m5C5772DBA7B5A25ABE803D0B9298B1352222729A (void);
+extern void OnTileValidationLayer_Clear_m24ABD8A5C7F35135E1A0F280077F011D43A137B6 (void);
+extern void OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1 (void);
+extern void OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17 (void);
+extern void OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5 (void);
+extern void OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8 (void);
+extern void OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0 (void);
+extern void OnTileValidationLayer_Dispose_mC1A80EDB4A145C46C2648BF21079470E42786B7B (void);
+extern void Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A (void);
+extern void Pass_Clear_mDBE15CB281CDF8F189394DDE8D58E79D6A239FFE (void);
+static Il2CppMethodPointer s_methodPointers[32] = 
+{
+	CameraCaptureBridge_GetCachedCaptureActionsEnumerator_m5AF96FFFE623D93E1ABDE12DF9E17A420A69C498,
+	InternalRenderGraphValidation_SetAdditionalValidationLayer_m7E17169717A597EC93778D76E4B3603326CE557F,
+	InternalRenderGraphValidation__ctor_mD73A84ABA9010ADDC8939286A5405D7B167069DF,
+	OnTileValidationLayer_get_renderGraph_m8489A2B241CD719FEEF498909F87BD6285429C81,
+	OnTileValidationLayer_set_renderGraph_m8DCA2A883D5EB8FA39830B7E94D80CB97E59423E,
+	OnTileValidationLayer__ctor_m3576107877B64ADE640D5E79A70F4ED89AA3E17B,
+	OnTileValidationLayer_get_errorMessageHowToResolve_mA8A3F88FCA05EFB11ECA592E060637DBA0ECB703,
+	OnTileValidationLayer_set_errorMessageHowToResolve_mEFA1C92F19E63255F451FA8161EBF8FF2F2754F1,
+	OnTileValidationLayer_ValidateNoNonRasterPassInbetween_mA6E28E54A5A2FFA29805544EBD2DC0A590CBDDE5,
+	OnTileValidationLayer_ThrowNoNonRasterPassInBetween_m7D31D13F815E6D157EA1BF5D67C1EBC630D8DDB3,
+	OnTileValidationLayer_ThrowTextureSamplingException_mC579E133255E98BFC5831651A9CBC4E828E4F47D,
+	OnTileValidationLayer_ThrowNotRasterPassException_m15C8084D5164EDAD073D14D52F14DF5C00A14F33,
+	OnTileValidationLayer_UseTexture_mDAA9B7BF3CCFC7CF6025E0A36F0C23970C8AEC99,
+	OnTileValidationLayer_SetGlobalTextureAfterPass_mC46991FF1200D4D11777B4ED7EC30421A7DE8E16,
+	OnTileValidationLayer_ValidateRenderAttachment_m555FC8A5E90EF3AA1442FDC57AE7E221526AF7F7,
+	OnTileValidationLayer_SetRenderAttachment_mA13E12DE1C3F4777FE2BC9D9AF2E9B7FC632DAD9,
+	OnTileValidationLayer_SetRenderAttachmentDepth_m8A0176DD00B25F1AF1EEB61A954DE7E29A86FBF1,
+	OnTileValidationLayer_SetInputAttachment_m83B484B3E8755611327DF614DF2F30A31E74EB5E,
+	OnTileValidationLayer_OnPassAddedBegin_mCA43370D61BF89ACE568EBD45EFB60031B26EC74,
+	OnTileValidationLayer_OnPassAddedDispose_mEC5C677267EEFD5ECF27A4E316ABE4B54BE2CADC,
+	OnTileValidationLayer_Add_m806B75033A01469DF7F696BD596CB1FC1523B448,
+	OnTileValidationLayer_AddFast_m28376D0E022A5531035A90D1637C87B39FBE6DD7,
+	OnTileValidationLayer_Remove_m5C5772DBA7B5A25ABE803D0B9298B1352222729A,
+	OnTileValidationLayer_Clear_m24ABD8A5C7F35135E1A0F280077F011D43A137B6,
+	OnTileValidationLayer_EnsureHandleStateCapacity_mDFF84E2DBED4EFB88DD95901D3F64D52681503E1,
+	OnTileValidationLayer_GetHandleState_m322E4D20F62647A29BB8FA3C05A35EB80417FD17,
+	OnTileValidationLayer_IsTrackedOnTile_mC05BE6E67AA841CF9131623C67F61F50FDBDFDE5,
+	OnTileValidationLayer_GetLastRasterPass_m9297E2559F5830B149959857382E70E351EFD9B8,
+	OnTileValidationLayer_SetLastRasterPass_m05F4012D2B1F4407066274C6C1FE0A785B3E90C0,
+	OnTileValidationLayer_Dispose_mC1A80EDB4A145C46C2648BF21079470E42786B7B,
+	Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A,
+	Pass_Clear_mDBE15CB281CDF8F189394DDE8D58E79D6A239FFE,
+};
+extern void Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A_AdjustorThunk (void);
+extern void Pass_Clear_mDBE15CB281CDF8F189394DDE8D58E79D6A239FFE_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] = 
+{
+	{ 0x0600001F, Pass_Init_m7B382342CD2678E457817E50E1FB22F36CBBB89A_AdjustorThunk },
+	{ 0x06000020, Pass_Clear_mDBE15CB281CDF8F189394DDE8D58E79D6A239FFE_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[32] = 
+{
+	15219,
+	14809,
+	10522,
+	10055,
+	7664,
+	10522,
+	10055,
+	7664,
+	7664,
+	7664,
+	3282,
+	3282,
+	3314,
+	3314,
+	3282,
+	822,
+	1586,
+	822,
+	7664,
+	10522,
+	7664,
+	7664,
+	7664,
+	10522,
+	7664,
+	6268,
+	5165,
+	6268,
+	3314,
+	10522,
+	10522,
+	10522,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_RenderPipelines_Core_Runtime_Shared_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_RenderPipelines_Core_Runtime_Shared_CodeGenModule = 
+{
+	"Unity.RenderPipelines.Core.Runtime.Shared.dll",
+	32,
+	s_methodPointers,
+	2,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
