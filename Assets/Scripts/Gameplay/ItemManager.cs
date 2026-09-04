@@ -45,6 +45,7 @@ namespace BlockBlast.Gameplay
         #region Events
 
         public event Action<IReadOnlyList<ItemType>> OnInventoryUpdated;
+        public event Action<ItemType> OnItemAcquired; // 인벤토리에 정상 획득 시 발동
         public event Action<ItemType> OnItemEvaporated; // 슬롯 가득 찬 상태에서 추가 획득 시 증발
         public event Action<ItemType, string> OnInstantItemTriggered; // (itemType, noticeMessage)
         public event Action<ItemType> OnInventoryItemUsed;
@@ -165,6 +166,7 @@ namespace BlockBlast.Gameplay
             if (_inventory.Count < MaxInventorySlots)
             {
                 _inventory.Add(itemType);
+                OnItemAcquired?.Invoke(itemType);
                 OnInventoryUpdated?.Invoke(_inventory);
 
                 string msg = $"{itemType.GetItemName()} Get Item!";
