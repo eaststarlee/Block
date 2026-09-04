@@ -4165,7 +4165,7 @@ GameObject:
   - component: {fileID: 299886969}
   - component: {fileID: 299886979}
   m_Layer: 0
-  m_Name: --- BLOCK BLAST GAME ---
+  m_Name: BLOCK BLAST GAME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4341,10 +4341,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cedb2d9ecabb4c4e9b14d84dffddcb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockBlast.Gameplay.ItemManager
-  _gridManager: {fileID: 0}
-  _handManager: {fileID: 0}
-  _scoreManager: {fileID: 0}
-  _timeManager: {fileID: 0}
+  _gridManager: {fileID: 299886976}
+  _handManager: {fileID: 299886975}
+  _scoreManager: {fileID: 299886973}
+  _timeManager: {fileID: 299886972}
 --- !u!114 &299886975
 MonoBehaviour:
   m_ObjectHideFlags: 0
