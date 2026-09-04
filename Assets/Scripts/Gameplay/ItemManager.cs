@@ -167,14 +167,14 @@ namespace BlockBlast.Gameplay
                 _inventory.Add(itemType);
                 OnInventoryUpdated?.Invoke(_inventory);
 
-                string msg = $"🎁 {itemType.GetItemName()} 획득!";
+                string msg = $"{itemType.GetItemName()} Get Item!";
                 OnNoticeAnnouncement?.Invoke(msg);
             }
             else
             {
                 // 3개 슬롯 초과 -> 증발 처리
                 OnItemEvaporated?.Invoke(itemType);
-                string msg = $"⚠️ 인벤토리 초과! [{itemType.GetItemName()}] 증발!";
+                string msg = $"Inventory Over! [{itemType.GetItemName()}] Item Loss!";
                 OnNoticeAnnouncement?.Invoke(msg);
             }
         }
@@ -240,7 +240,7 @@ namespace BlockBlast.Gameplay
             switch (itemType)
             {
                 case ItemType.Bomb3x3:
-                    message = "시간정지 !!!!! 지금이얏~~~\n💣 3x3 대폭발!!";
+                    message = "3x3 Boom!!";
                     if (_gridManager != null)
                     {
                         _gridManager.ClearArea3x3(coord.x, coord.y, out _);
@@ -248,7 +248,7 @@ namespace BlockBlast.Gameplay
                     break;
 
                 case ItemType.HorizontalBlast:
-                    message = "시간정지 !!!!! 지금이얏~~~\n↔️ 가로 1줄 관통 폭발!!";
+                    message = "Horizontal Boom!!";
                     if (_gridManager != null)
                     {
                         _gridManager.ClearRow(coord.y, out _);
@@ -256,7 +256,7 @@ namespace BlockBlast.Gameplay
                     break;
 
                 case ItemType.VerticalBlast:
-                    message = "시간정지 !!!!! 지금이얏~~~\n↕️ 세로 1줄 관통 폭발!!";
+                    message = "Vertical Boom!!";
                     if (_gridManager != null)
                     {
                         _gridManager.ClearColumn(coord.x, out _);
@@ -264,7 +264,7 @@ namespace BlockBlast.Gameplay
                     break;
 
                 case ItemType.TimeBonus10s:
-                    message = "시간정지 !!!!! 지금이얏~~~\n⏱️ 제한시간 +10초 추가!!";
+                    message = "+10s Time !!";
                     if (_timeManager != null)
                     {
                         _timeManager.AddTime(10f);
@@ -288,7 +288,7 @@ namespace BlockBlast.Gameplay
                     {
                         _gridManager.ClearAllBoard(out _);
                     }
-                    OnNoticeAnnouncement?.Invoke("🧹 보드 전체 클리어 발동!");
+                    OnNoticeAnnouncement?.Invoke("Board ALL Clear!");
                     break;
 
                 case ItemType.HandReset:
@@ -296,7 +296,7 @@ namespace BlockBlast.Gameplay
                     {
                         _handManager.ResetHand();
                     }
-                    OnNoticeAnnouncement?.Invoke("🔄 손패 블록 리셋 발동!");
+                    OnNoticeAnnouncement?.Invoke("Block Reset!");
                     break;
 
                 case ItemType.ScoreDouble10s:
@@ -304,7 +304,7 @@ namespace BlockBlast.Gameplay
                     {
                         _scoreManager.ActivateDoubleScore(10f);
                     }
-                    OnNoticeAnnouncement?.Invoke("⚡ 10초간 점수 2배 버프 발동!");
+                    OnNoticeAnnouncement?.Invoke("Point x2 - 10s ");
                     break;
             }
         }
