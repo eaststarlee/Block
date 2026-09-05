@@ -21,7 +21,8 @@
 
 ## 🎬 Preview
 
-[스크린샷 또는 플레이 GIF 삽입 위치]
+<img width="400" height="225" alt="BB1-gif" src="https://github.com/user-attachments/assets/68ed32ce-cbcd-40fb-b627-3be7bbb97549" />
+<img width="400" height="225" alt="BB2-gif" src="https://github.com/user-attachments/assets/d9d23f90-9c89-4321-b859-08cecd758f97" />
 
 ---
 
